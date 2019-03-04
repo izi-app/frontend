@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="height:100%">
+<html>
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -9,90 +9,62 @@
     <link rel="icon" sizes="192x192" href="../imagenes/izi_icono.png">
     <link rel="stylesheet" href="css/custom.css" />
     <title>IZI</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
-<body style="background-image:linear-gradient(to bottom right, #444444, #111111); background-color: #111111; height:100%; width:100%">
-    <div class="container-fluid h-100 w-100" style="display:table;">
-        <div class="" style="display:table-cell; vertical-align: middle;">
-            <div class="centering text-center m-auto">
-                <div class="container d-none d-md-block" style="max-width:700px">
-                    <img src="images/izi_logo_claro.png" alt="" style="width:150px;">
-                    <h1 class="text-light mb-3">Escoge tu universidad</h1>
-                    <div class="card-columns mx-auto">
-                        <a href="universities/courses.html">
-                            <div class="university-item card mx-auto mt-3" style="background-image:linear-gradient(to bottom right, #f6c87b, #f3bd5f); border-color: #dc7337; height:175px; width:175px; border-width: 0px; border-radius:15px;">
-                                <img class="my-4" src="images/Universidad_de_Lima_logo.png" style="height:125px;" alt="">
-                            </div>
-                        </a>
-                        <a href="universities/courses.html">
-                            <div class="university-item card mx-auto mt-3" style="background-image:linear-gradient(to bottom right, #79adf9, #488ff8); border-color: #0c369a; height:175px; width:175px; border-width: 0px;  border-radius:15px;">
-                                <img class="m-2" src="images/UPacifico.png" style="height:150px;" alt="">
-                            </div>
-                        </a>
-                        <a href="universities/courses.html">
-                            <div class="university-item card mx-auto mt-3" style="background-image:linear-gradient(to bottom right, #f0a1a1, #f57373); border-color: #901e26; height:175px; width:175px;  border-width: 0px;border-radius:15px;">
-                                <img class="m-4" src="images/cabecera-pucp-2017-2.png" style="height:125px;" alt="">
-                            </div>
-                        </a>
-                    </div>
+<body style="background-image:linear-gradient(to bottom right, #1C2937, #121A26); min-height: 100vh;">
+    <div class="container mt-3 text-center">
+        <h3 class="text-light">Bienvenido a Izi</h3>
+        <img class="mt-3 mb-4" src="images/izi_logo_claro.png" alt="" style="width:125px;">
+    </div>
+    <div class="container text-light w-100 m-auto px-4" style="max-width: 400px;">
+        <form class="form" role="form" autocomplete="off" id="loginForm" novalidate="" method="POST">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">
+                        <i class="fas fa-at"></i>
+                    </span>
                 </div>
-                <div class="centering text-center m-auto">
-                    <div class="container d-none d-sm-block d-md-none" style="max-width:700px">
-                        <img src="images/izi_logo_claro.png" alt="" style="width:100px;">
-                        <h2 class="text-light mb-2">Escoge tu universidad</h2>
-                        <div class="card-columns mx-auto">
-                            <a href="universities/courses.html">
-                                <div class="university-item card mx-auto mt-3" style="background-image:linear-gradient(to bottom right, #f6c87b, #f3bd5f); border-color: #dc7337; height:150px; width:150px; border-width: 0px; border-radius:15px;">
-                                    <img class="my-4" src="images/Universidad_de_Lima_logo.png" style="height:100px;"
-                                        alt="">
-                                </div>
-                            </a>
-                            <a href="universities/courses.html">
-                                <div class="university-item card mx-auto mt-3" style="background-image:linear-gradient(to bottom right, #79adf9, #488ff8); border-color: #0c369a; height:150px; width:150px; border-width: 0px;  border-radius:15px;">
-                                    <img class="m-2" src="images/UPacifico.png" style="height:135px;" alt="">
-                                </div>
-                            </a>
-                            <a href="universities/courses.html">
-                                <div class="university-item card mx-auto mt-3" style="background-image:linear-gradient(to bottom right, #f0a1a1, #f57373); border-color: #901e26; height:150px; width:150px;  border-width: 0px;border-radius:15px;">
-                                    <img class="m-4" src="images/cabecera-pucp-2017-2.png" style="height:100px;" alt="">
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="container d-block d-sm-none w-100 p-0">
-                        <img src="images/izi_logo_claro.png" alt="" style="width:125px;">
-                        <h2 class="text-light mb-3">Escoge tu universidad</h2>
-                        <div class="row mx-auto w-100">
-                            <div class="col-6 m-auto">
-                                <a href="universities/courses.html">
-                                    <div class="university-item card mx-auto my-2" style="background-image:linear-gradient(to bottom right, #f6c87b, #f3bd5f); border-color: #dc7337; height:125px; width:125px; border-width: 0px; border-radius:15px; opacity: 0.9;">
-                                        <img class="m-auto" src="images/Universidad_de_Lima_logo.png" style="height:90px;"
-                                            alt="">
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-6 m-auto">
-                                <a href="universities/courses.html">
-                                    <div class="university-item card mx-auto my-2" style="background-image:linear-gradient(to bottom right, #79adf9, #488ff8); border-color: #0c369a; height:125px; width:125px; border-width: 0px;  border-radius:15px;">
-                                        <img class="m-auto" src="images/UPacifico.png" style="height:110px;" alt="">
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-6 m-auto">
-                                <a href="universities/courses.html">
-                                    <div class="university-item card mx-auto mt-2 mb-4" style="background-image:linear-gradient(to bottom right, #f0a1a1, #f57373); border-color: #901e26; height:125px; width:125px;  border-width: 0px;border-radius:15px;">
-                                        <img class="m-auto" src="images/cabecera-pucp-2017-2.png" style="height:90px;"
-                                            alt="">
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <input type="email" class="form-control" name="uname1" id="uname1" required=""
+                    placeholder="Correo electrónico" />
             </div>
+            <div class="input-group mt-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">
+                        <i class="fas fa-lock"></i>
+                    </span>
+                </div>
+                <input type="password" class="form-control" name="uname1" id="uname1" required=""
+                    placeholder="Contraseña" />
+            </div>
+            <a class="btn btn-lg btn-primary mt-4 btn-block w-75 mx-auto rounded-pill" href="home.html"
+                style="background-color:#67CCBE">
+                <strong>Iniciar sesión</strong>
+            </a>
+            <div class="container w-75 mx-auto mt-4">
+                <a class="text-center" href="reset_password.html" style="color:#fff">
+                    <h5><strong>¿Has olvidado tu contraseña?</strong></h5>
+                </a>
+            </div>
+        </form>
+        <div class="progress mt-4" style="height: 2px;">
+            <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100"></div>
         </div>
+        <h5 class="text-center mt-4">
+            <strong>¿No tienes cuenta?</strong>
+        </h5>
+        <a class="btn btn-lg btn-link mt-4 btn-block border w-75 mx-auto text-light" href="client/book.html">
+            <strong>Regístrate<br class="d-block d-sm-none"> en IZI</strong>
+        </a>
+        <a class="btn btn-lg btn-link mt-4 btn-block border w-75 mx-auto text-light mb-5" href="client/book.html">
+            <strong>Entrar como<br class="d-block d-sm-none"> invitado</strong>
+        </a>
+    </div>
 </body>
