@@ -3,6 +3,8 @@
 body{
     min-height: 100vh;
     font-family: 'Rubik';
+    padding-left: constant(safe-area-inset-left);
+    padding-right: constant(safe-area-inset-right);
 }
 
 *{
