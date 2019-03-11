@@ -20,7 +20,7 @@ li.list-group-item{
 }
 
 ul.list-group-flush{
-    padding-left: constant(safe-area-inset-left);
+    margin-left: constant(safe-area-inset-left);
 }
 
 div.course{
