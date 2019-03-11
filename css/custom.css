@@ -1,0 +1,16 @@
+body{
+    min-height: 100vh;
+}
+li.list-group-item{
+    background-color: transparent;
+}
+
+div.course{
+    min-width: 100px;
+    width: 25%;
+    max-width: 125px;
+}
+
+p.course{
+    font-size: 14px;
+}
