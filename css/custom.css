@@ -15,8 +15,15 @@ a.btn-lg{
     border-radius: 25px;
 }
 
-li.list-group-item{
+li.list-group-item:hover{
     background-color: transparent;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+li.list-group-item-action{
+    background-color: transparent;
+    opacity: 0.75;
 }
 
 ul.list-group-flush{
@@ -31,4 +38,14 @@ div.course{
 
 p.course{
     font-size: 14px;
+}
+
+a.course-name:hover{
+    opacity: 0.9;
+    text-decoration: underline white;
+}
+
+img.course-icon:hover{
+    -webkit-box-shadow: 0 0 9px #777777;
+    border-radius: 50%;
 }
