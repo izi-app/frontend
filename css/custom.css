@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
 body{
     min-height: 100vh;
+    font-family: 'Rubik';
 }
+
+*{
+    font-family: 'Rubik';
+}
+
+a.btn-lg{
+    border-radius: 25px;
+}
+
 li.list-group-item{
     background-color: transparent;
 }
