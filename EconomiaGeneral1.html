@@ -24,19 +24,63 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body style="background-image:linear-gradient(to bottom right, #1C2937, #121A26); min-height: 10hv;">
-    <nav class="shadow fixed-top navbar mb-3"
-        style="min-height:50px; background-image:linear-gradient(to bottom right, #6EDACC, #5CB7AB)">
-        <div class="m-auto container px-0">
-            <a href="#" class="text-light rounded-circle px-3 py-1" style="position:absolute; font-size: 32px;"
-                data-toggle="modal" data-target="#NavBar">
-                <i class="fas fa-bars" style="color: #151E2A;"></i>
-            </a>
-            <a class="m-auto navbar-dark" href="book.html">
-                <img class="py-0 my-0" style="width:80px" src="images/izi_logo_claro.png" />
-            </a>
-        </div>
-    </nav>
+<body style="background-image:linear-gradient(to bottom right, #1C2937, #121A26);">
+
+    <div class="fixed-top">
+        <nav class="shadow navbar"
+            style="min-height:50px; background-image:linear-gradient(to bottom right, #6EDACC, #5CB7AB)">
+            <div class="m-auto container px-0">
+                <a href="#" class="text-light rounded-circle px-3 py-1" style="position:absolute; font-size: 32px;"
+                    data-toggle="modal" data-target="#NavBar">
+                    <i class="fas fa-bars" style="color: #151E2A;"></i>
+                </a>
+                <a class="m-auto navbar-dark" href="book.html">
+                    <img class="py-0 my-0" style="width:80px" src="images/izi_logo_claro.png" />
+                </a>
+            </div>
+        </nav>
+
+
+        <section class="title text-light text-center pt-3">
+            <h5>
+                <strong>Economía General 1</strong>
+            </h5>
+        </section>
+        <nav id="course-nav" class="text-light text-center d-flex pt-2 mx-auto px-2" style="overflow-x: auto;
+        overflow-y: hidden; max-width:1000px;">
+            <div class="container d-inline-block course-nav-element mx-1"
+                style="border-bottom: 3px solid #54C0E2; opacity: 1;">
+                <a href="">
+                    <img src="images/Lecturas.png" alt="" width="50px">
+                    <p class="mt-1 text-light mb-1">Lecturas</p>
+                </a>
+            </div>
+            <div class="container d-inline-block course-nav-element mx-1">
+                <a href="">
+                    <img src="images/Apuntes.png" alt="" width="50px;">
+                    <p class="mt-1 text-light mb-1">Apuntes</p>
+                </a>
+            </div>
+            <div class="container d-inline-block course-nav-element mx-1">
+                <a href="">
+                    <img src="images/Controles.png" alt="" width="50px;">
+                    <p class="mt-1 text-light mb-1">Exámenes</p>
+                </a>
+            </div>
+            <div class="container d-inline-block course-nav-element mx-1">
+                <a href="">
+                    <img src="images/Controles.png" alt="" width="50px;">
+                    <p class="mt-1 text-light mb-1">Prácticas</p>
+                </a>
+            </div>
+            <div class="container d-inline-block course-nav-element mx-1">
+                <a href="">
+                    <img src="images/Controles.png" alt="" width="50px;">
+                    <p class="mt-1 text-light mb-1">Controles</p>
+                </a>
+            </div>
+        </nav>
+    </div>
 
     <div class="modal fade" id="NavBar" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document" style="height:100%; margin:0; padding: 0;">
@@ -126,46 +170,11 @@
         </div>
     </div>
 
-    <section class="content text-light text-center" style="padding-top:90px;">
-        <h4 class="mt-1">Cursos</h4>
-        <div class="container mx-auto mt-2" style="max-width:800px;">
-            <div class="d-inline-block mx-2 mt-2 align-top course">
-                <a class="course-icon" href="EconomiaGeneral1.html">
-                    <img class="mx-auto mt-0 w-100 pt-1 px-2" src="images/EconomiaGeneral1_icono.png" alt="">
-                </a>
-                <a href="EconomiaGeneral1.html">
-                    <p class="mt-2 text-light course-name">Economía General 1</p>
-                </a>
-            </div>
-            <div class="d-inline-block w-25 mx-2 mt-2 align-top course">
-                <a href="">
-                    <img class="mx-auto mt-0 w-100 pt-1 px-2" src="images/FundamentosDeContabilidad_icono.png" alt="">
-                </a>
-                <p class="mt-2 course">Fundamentos<br>de Contabilidad</p>
-            </div>
-            <div class="d-inline-block w-25 mx-2 mt-2 align-top course">
-                <a href="">
-                    <img class="mx-auto mt-0 w-100 pt-1 px-2" src="images/Gerencia_icono.png"></a>
-                <a href="">
-                    <p class="mt-2 text-light course">Gerencia<br><br></p>
-                </a>
-            </div>
-            <div class="d-inline-block w-25 mx-2 mt-2 align-top course">
-                <a href="">
-                    <img class="mx-auto mt-0 w-100 pt-1 px-2" src="images/Lenguaje1_icono.png"></a>
-                <a href="">
-                    <p class="mt-2 text-light course">Lenguaje 1<br><br></p>
-                </a>
-            </div>
-            <div class="d-inline-block w-25 mx-2 mt-2 align-top course">
-                <a href="">
-                    <img class="mx-auto mt-0 w-100 pt-1 px-2" src="images/Matematicas2_icono.png"></a>
-                <a href="">
-                    <p class="mt-2 text-light course">Matemáticas 2<br><br></p>
-                </a>
-            </div>
+    <section class="content text-light text-center" style="padding-top:250px; margin-top:-20px;">
+        <div class="container">
         </div>
     </section>
+
 </body>
 
 </html>

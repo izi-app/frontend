@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
+*{
+    font-family: 'Rubik';
+}
+
 body{
     min-height: 100vh;
     font-family: 'Rubik';
     padding-left: constant(safe-area-inset-left);
     padding-right: constant(safe-area-inset-right);
-}
-
-*{
-    font-family: 'Rubik';
 }
 
 a.btn-lg{
@@ -38,6 +38,18 @@ div.course{
 
 p.course{
     font-size: 14px;
+}
+
+div.course-nav-element{
+    opacity: 0.7;
+}
+
+div.course-nav-element:hover{
+    opacity: 0.85;
+}
+
+a.course-nav-element:active{
+    opacity: 1;
 }
 
 a.course-name:hover{
